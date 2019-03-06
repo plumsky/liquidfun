@@ -16,7 +16,7 @@
 
 APP_PLATFORM:=android-10
 APP_ABI:=armeabi-v7a
-APP_STL:=gnustl_static
+APP_STL:=c++_static
 APP_CFLAGS:=-DLIQUIDFUN_EXTERNAL_LANGUAGE_API=1
 NDK_MODULE_PATH+=$(abspath $(NDK_PROJECT_PATH)/../../)
 APP_MODULES:=libliquidfun_jni
